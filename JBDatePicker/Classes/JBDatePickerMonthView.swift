@@ -26,7 +26,7 @@ public final class JBDatePickerMonthView: UIStackView {
     }
     
     public var monthDescription: String!
-    var monthInfo: (monthStartDay: Date, monthEndDay: Date, numberOfWeeksInMonth: Int, weekDayInfo: [[Int:JBDay]])!
+    public var monthInfo: (monthStartDay: Date, monthEndDay: Date, numberOfWeeksInMonth: Int, weekDayInfo: [[Int:JBDay]])!
     var numberOfWeeks: Int!
     var weekViews: [JBDatePickerWeekView]!
     
